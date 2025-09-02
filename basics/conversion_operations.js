@@ -19,3 +19,47 @@ let stringnumber = String(somenumber);
 console.log(stringnumber);
 
 console.log(typeof stringnumber);
+
+
+// OPERATONS
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2/2)
+
+
+// let str1="hello"
+// let str2="nikhil"
+// let str3 = str1+str2
+// console.log(str3);
+
+// console.log("1" + 2+2);// string conversion takes place
+// console.log(1+2+"2");// no 
+
+// comparison of datatype
+
+
+// console.log(2>1)
+// console.log(2==1)
+// console.log(2!=1)
+
+// console.log("2">1) // automaticallly js converts string to a number type
+// console.log("02">1)
+
+console.log(null >0);
+console.log(null==0);
+console.log(null>=0);// null get converted to zero so it give true others are false
+
+console.log(undefined==0);
+console.log(undefined>0);
+console.log(undefined<0);// all get false because no conversion takes place
+
+// === it check value as well as their datatype
+console.log("2"===2);
+
+
+
+
+
