@@ -40,11 +40,31 @@ of the data
    javascript is a dynamically types language because one variable can store multiple types
 */
 /*  MEMORY ALLOCATIONS(stack , heap)
+   STACK
    All primitive data type are using stack memory
    when stack memory is used we get copy of variable
-   
+   eg:
+   */
+  let myname="nikhil"
+  let anothername = myname;
+  anothername="sharma"
+  console.log(myname);
+  console.log(anothername);
+  
+  
 
+
+   /* HEAP
    All Non primitive data types are using heap memory
    when heap memory is used we get access to the address of original value
 
 */
+let userone={
+   email:"user@gmail.com",
+   upi:"user@ybl"
+};
+let usertwo=userone
+usertwo.email="nikhil@google.com"
+console.log(userone.email);
+console.log(usertwo.email);
+
