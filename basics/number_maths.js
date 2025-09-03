@@ -27,7 +27,8 @@ console.log(Math.min(5,9,2,0)); // find minimum number
 console.log(Math.max(7,9,6,0)); // find maximum number
 
 console.log(Math.random()); // it gives random value between 0 to 1
-console.log((Math.random()*10)+1); // 
+console.log((Math.random()*10)+1); // // There is minimum value 1
+console.log(Math.floor(Math.random()*10)+1);
 
 
 
