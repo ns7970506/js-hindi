@@ -29,6 +29,13 @@ console.log(Math.max(7,9,6,0)); // find maximum number
 console.log(Math.random()); // it gives random value between 0 to 1
 console.log((Math.random()*10)+1); // // There is minimum value 1
 console.log(Math.floor(Math.random()*10)+1);
+// formula for required minimum value 
+const min=10
+const max=20
+console.log(Math.floor(Math.random()*(max-min+1)+min));
+
+
+
 
 
 
