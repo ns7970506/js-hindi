@@ -45,23 +45,29 @@ Object.assign(target, ...sources)
 
 */
 // mostly used is spread operator(...) to combine two object in another objects
-const obj3={...obj1,...obj2}
-console.log(obj3);
+// const obj3={...obj1,...obj2}
+// console.log(obj3);
  
-const users=[
-    {
-        id:1,
-        email:"nikhil@gmail.com",
 
-    },
-    {
-        id:2,
-        email:"n@gmail.com"
-    },
 
-]
-users[1].email
-console.log(user);
+// // method
+// console.log(Objects.keys(user));
 
-// method
-console.log(Objects.keys(user));
+
+// Destructure
+
+const course={
+    coursename:"Js in hindi",
+    price:"999",
+    courseInstruction:"hitesh"
+};
+// console.courseInstruction
+const{courseInstruction}=course
+console.log(courseInstruction);
+
+ // json = backened se value aati hai us value ko hum kaise likte hai usiko hum json kehte hai
+//  {
+//     "name":"nikhil",
+//     "coursename":"js in hindi",
+//     "price":"free"
+//  }
