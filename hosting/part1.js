@@ -29,9 +29,11 @@ var a=25;// yaha par var automatically console.log ke upar declare ho gaya lekin
 // initailase with a valu e nahi ho paya jise undefined ho gaya
 
 /* lekin jab hum let or const keyword ka use karte hai tab uss case mein error aata hai
+ya
  */
 // console.log(a);
 // let a=37;
+// yaha par line number 34 ,35 ko hum log temporal dead zone kehte hai.
 
 
 //***************CLASS******************* */
@@ -76,7 +78,7 @@ var a=25;// yaha par var automatically console.log ke upar declare ho gaya lekin
 
  RETURN FUNCTION
  eg
- 
+
  USE IN DATA STRUCTURE
  USE AS A PROPERTY
  */
