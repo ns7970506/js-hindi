@@ -32,3 +32,51 @@ var a=25;// yaha par var automatically console.log ke upar declare ho gaya lekin
  */
 // console.log(a);
 // let a=37;
+
+
+//***************CLASS******************* */
+// CLASS IS BASICALLY A BLUEPRINT JISEE KI OBJECT BANATI HAI
+// JUST LIKE NAKSHA OF A GHAR IS A CLASS AND REAL GHAR IS A OBJECT
+
+
+/** JUST LIKE LET CONST KEYWORD CLASS KI BHI HOSTING NAHI HOTI HAI
+ * const object1 = new Human();
+ * class human{
+ * 
+ * }
+ * 
+ * 
+ */
+
+
+// ==================CALL STACK======================
+/**
+  FUNCTION IS CALLED  A FIRST CLASS CITIZEN
+  BECAUSE
+  A ASSIGN TO A VARIABLE
+  eg
+  let greet = function(){
+  console.log("greeting of a day")
+  }
+ greet();
+
+ AS AN ARGUEMENT
+  eg
+  function greetme(greet,fullname){
+   console.log("hello",fullname);
+   greet();
+   }
+
+   function greet(){
+   console.log("greeting for the day")
+   }
+
+   greetme(greet,nikhil);
+
+
+ RETURN FUNCTION
+ eg
+ 
+ USE IN DATA STRUCTURE
+ USE AS A PROPERTY
+ */
