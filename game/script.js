@@ -1,4 +1,4 @@
-let boxes = document.querySelector("box")
+let boxes = document.querySelectorAll(".box")
 let result = document.querySelector("#reset-btn");
 
 let turnO =true;// if true then o or if false then x
